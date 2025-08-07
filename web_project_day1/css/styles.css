@@ -1,0 +1,20 @@
+.sothich {
+  list-style: none; /* Ẩn chấm mặc định */
+  padding: 0;
+  margin: 0;
+}
+
+.sothich li {
+  margin-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+  font-size: 18px;
+  color: #333;
+}
+
+.sothich li::before {
+  content: "⭐";  /* Bạn có thể thay bằng ✅, 🚀, ➤, 🔹, v.v. */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
